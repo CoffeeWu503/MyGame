@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8AFF6B97-EF36-4C83-B2FA-674BD1779DA5}" SchemaVersion="89">
+	<AudioDevices>
+		<WorkUnit Name="Default Work Unit" ID="{8AFF6B97-EF36-4C83-B2FA-674BD1779DA5}" PersistMode="Standalone">
+			<ChildrenList>
+				<AudioDevice Name="System" ID="{1B52A9AD-EDA1-4EAE-9D73-FEC868B8024F}" PluginName="System" CompanyID="0" PluginID="174" PluginType="7"/>
+				<AudioDevice Name="No_Output" ID="{B70DEED6-A809-454C-877E-4203E9BBF06A}" PluginName="No Output" CompanyID="0" PluginID="181" PluginType="7"/>
+				<AudioDevice Name="DVR" ID="{14025819-186E-4648-BB27-1D477B10A32F}" PluginName="DVR Bypass" CompanyID="0" PluginID="175" PluginType="7"/>
+				<AudioDevice Name="Communication" ID="{21ED38DD-4A4C-47AA-9A7C-B33DD9DB88B4}" PluginName="Communication" CompanyID="0" PluginID="176" PluginType="7"/>
+				<AudioDevice Name="Controller_Headphones" ID="{54124C86-257B-447A-A671-4B8CC530F16B}" PluginName="Controller Headphones" CompanyID="0" PluginID="177" PluginType="7"/>
+				<AudioDevice Name="Controller_Speaker" ID="{2F8AC0FA-6FE4-4419-A35D-2DF92946DDD9}" PluginName="Controller Speaker" CompanyID="0" PluginID="179" PluginType="7"/>
+				<AudioDevice Name="Auxiliary" ID="{E7E42CE1-0AA1-478C-A564-0428A0424B5B}" PluginName="Auxiliary" CompanyID="0" PluginID="180" PluginType="7"/>
+				<AudioDevice Name="Wwise_Motion" ID="{B22FD404-D6A2-465A-B9D1-6AC76B7328E3}" PluginName="Wwise Motion" CompanyID="0" PluginID="507" PluginType="7"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioDevices>
+</WwiseDocument>

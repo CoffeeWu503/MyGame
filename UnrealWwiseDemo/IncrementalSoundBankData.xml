@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IncrementalBankBuild Version="6" Flags="3336423861">
+	<Platform GUID="{7CC0D198-A107-4127-806F-AB305E44D9BA}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="Init" Hash="1838333353" Timestamp="1532534813"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="393239870">
+				<File Name="Init" Hash="2886863341" Timestamp="1532534813"/>
+			</Language>
+			<Language ID="-1">
+				<File Name="" Hash="2828837605" Timestamp="1532534813"/>
+			</Language>
+		</XMLInfo>
+		<JSONInfo>
+			<Language ID="393239870">
+				<File Name="Init" Hash="505952553" Timestamp="1532534813"/>
+			</Language>
+			<Language ID="-1">
+				<File Name="" Hash="792333507" Timestamp="1532534813"/>
+			</Language>
+		</JSONInfo>
+	</Platform>
+	<Platform GUID="{BD0BDF13-3125-454F-8BFD-319537169F82}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="Init" Hash="151411882" Timestamp="1532534813"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="393239870">
+				<File Name="Init" Hash="2536101514" Timestamp="1532534813"/>
+			</Language>
+			<Language ID="-1">
+				<File Name="" Hash="2322285458" Timestamp="1532534813"/>
+			</Language>
+		</XMLInfo>
+		<JSONInfo>
+			<Language ID="393239870">
+				<File Name="Init" Hash="2408554196" Timestamp="1532534813"/>
+			</Language>
+			<Language ID="-1">
+				<File Name="" Hash="708819720" Timestamp="1532534813"/>
+			</Language>
+		</JSONInfo>
+	</Platform>
+	<Platform GUID="{3AF9B9B6-6EF1-47E9-B5FE-E30C9E602C78}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="Init" Hash="428595239" Timestamp="1532534813"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="393239870">
+				<File Name="Init" Hash="2890279143" Timestamp="1532534813"/>
+			</Language>
+			<Language ID="-1">
+				<File Name="" Hash="4099049275" Timestamp="1532534813"/>
+			</Language>
+		</XMLInfo>
+		<JSONInfo>
+			<Language ID="393239870">
+				<File Name="Init" Hash="3636902551" Timestamp="1532534813"/>
+			</Language>
+			<Language ID="-1">
+				<File Name="" Hash="3594825561" Timestamp="1532534813"/>
+			</Language>
+		</JSONInfo>
+	</Platform>
+	<Platform GUID="{02DC7702-6E7B-4AE4-BAE4-64D2B1057150}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="Init" Hash="1168234052" Timestamp="1576678406"/>
+				<File Name="MusicGame" Hash="1754048349" Timestamp="1576678406"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="393239870">
+				<File Name="Init" Hash="3444188773" Timestamp="1576678406"/>
+				<File Name="MusicGame" Hash="180491547" Timestamp="1576678406"/>
+			</Language>
+			<Language ID="-1">
+				<File Name="" Hash="3184609346" Timestamp="1576678406"/>
+			</Language>
+		</XMLInfo>
+		<JSONInfo>
+			<Language ID="393239870">
+				<File Name="Init" Hash="4117243109" Timestamp="1576678406"/>
+				<File Name="MusicGame" Hash="61789007" Timestamp="1576678406"/>
+			</Language>
+			<Language ID="-1">
+				<File Name="" Hash="178190063" Timestamp="1576678406"/>
+			</Language>
+		</JSONInfo>
+	</Platform>
+	<Platform GUID="{B131584B-9961-4BB5-9C58-A3E9ABFFBBF7}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="Init" Hash="2007903763" Timestamp="1532534814"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="393239870">
+				<File Name="Init" Hash="453182999" Timestamp="1532534814"/>
+			</Language>
+			<Language ID="-1">
+				<File Name="" Hash="3323424267" Timestamp="1532534814"/>
+			</Language>
+		</XMLInfo>
+		<JSONInfo>
+			<Language ID="393239870">
+				<File Name="Init" Hash="4146890995" Timestamp="1532534814"/>
+			</Language>
+			<Language ID="-1">
+				<File Name="" Hash="2776444693" Timestamp="1532534814"/>
+			</Language>
+		</JSONInfo>
+	</Platform>
+	<Platform GUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EC}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="Init" Hash="182706759" Timestamp="1576678405"/>
+				<File Name="MusicGame" Hash="1754048349" Timestamp="1576678405"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="393239870">
+				<File Name="Init" Hash="3105152491" Timestamp="1576678405"/>
+				<File Name="MusicGame" Hash="1496181881" Timestamp="1576678405"/>
+			</Language>
+			<Language ID="-1">
+				<File Name="" Hash="794968200" Timestamp="1576678405"/>
+			</Language>
+		</XMLInfo>
+		<JSONInfo>
+			<Language ID="393239870">
+				<File Name="Init" Hash="1127845591" Timestamp="1576678405"/>
+				<File Name="MusicGame" Hash="3142813117" Timestamp="1576678405"/>
+			</Language>
+			<Language ID="-1">
+				<File Name="" Hash="4273075597" Timestamp="1576678405"/>
+			</Language>
+		</JSONInfo>
+	</Platform>
+	<Platform GUID="{28A989E5-3495-4CCC-B983-8A1CF8678A81}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="Init" Hash="517112432" Timestamp="1532534813"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="393239870">
+				<File Name="Init" Hash="3769091320" Timestamp="1532534813"/>
+			</Language>
+			<Language ID="-1">
+				<File Name="" Hash="308393028" Timestamp="1532534813"/>
+			</Language>
+		</XMLInfo>
+		<JSONInfo>
+			<Language ID="393239870">
+				<File Name="Init" Hash="994168132" Timestamp="1532534814"/>
+			</Language>
+			<Language ID="-1">
+				<File Name="" Hash="1405185048" Timestamp="1532534813"/>
+			</Language>
+		</JSONInfo>
+	</Platform>
+	<Platform GUID="{A2D401DE-B8B6-4FEB-8142-137C34D507CB}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="Init" Hash="2625543606" Timestamp="1532534813"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="393239870">
+				<File Name="Init" Hash="3163623639" Timestamp="1532534813"/>
+			</Language>
+			<Language ID="-1">
+				<File Name="" Hash="3026845003" Timestamp="1532534813"/>
+			</Language>
+		</XMLInfo>
+		<JSONInfo>
+			<Language ID="393239870">
+				<File Name="Init" Hash="2003932259" Timestamp="1532534813"/>
+			</Language>
+			<Language ID="-1">
+				<File Name="" Hash="2563653797" Timestamp="1532534813"/>
+			</Language>
+		</JSONInfo>
+	</Platform>
+</IncrementalBankBuild>

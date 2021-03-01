@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{245A59A9-1BF3-427B-9CC0-555CA91CBFBC}" SchemaVersion="89">
+	<AudioObjects>
+		<WorkUnit Name="AmbientDemo" ID="{245A59A9-1BF3-427B-9CC0-555CA91CBFBC}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="AmbientNoise_NotSpatialized" ID="{F785ACD7-8EE2-405D-9C45-3E6C946DC01C}" ShortID="471313027">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Ambient400" ID="{AFD92EB5-CEEB-4CEA-8758-8AD9CCA64466}" WorkUnitID="{54103095-2C91-452B-A820-F1D48BCC1068}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F6E5531-2B92-41CC-924F-077AFCFD1453}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{68F9BA48-B3E0-474F-8C7B-FE41FFC0978B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="SAW FIFTH" ID="{67611F2A-3C84-42F3-AC5F-8C3AFFDF9078}" ShortID="393843071" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+							<Comment>Audiokinetic Inc. All rights reserved.
+Content provided by Vincent Gagnon
+© 2014 Vincent Gagnon</Comment>
+							<PropertyList>
+								<Property Name="BaseFrequency" Type="Real32" Value="500"/>
+								<Property Name="FrequencyMode" Type="int32" Value="1"/>
+								<Property Name="Osc1Level" Type="Real32" Value="0"/>
+								<Property Name="Osc1Pwm" Type="Real32" Value="50.1"/>
+								<Property Name="Osc1Waveform" Type="int32" Value="3"/>
+								<Property Name="Osc2Level" Type="Real32" Value="0"/>
+								<Property Name="Osc2Transpose" Type="int32" Value="700"/>
+								<Property Name="Osc2Waveform" Type="int32" Value="3"/>
+								<Property Name="OutputLevel" Type="Real32">
+									<RTPCList>
+										<RTPC Name="" ID="{DD265F2E-468B-44C8-B066-260CE54447AC}" ShortID="476696409">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<Custom>
+														<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{5F8DFEAD-D67B-419D-B023-E182CE2D227D}" ShortID="604369983">
+															<PropertyList>
+																<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.137"/>
+																<Property Name="EnvelopeDecayTime" Type="Real64" Value="0.516"/>
+																<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.137"/>
+																<Property Name="EnvelopeSustainLevel" Type="Real64" Value="78.4"/>
+															</PropertyList>
+														</ModulatorEnvelope>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{933BAB17-E425-405E-A8FB-74C895F5A589}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0.28197</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>-0.17242</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+										<RTPC Name="" ID="{9D66E747-4546-49B7-884F-592FD3FFEF86}" ShortID="535419880">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="MIDI note velocity" ID="{B618CC3D-04FA-4149-A36B-37B8A1F2B642}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{8B54A5F5-148B-450A-96CD-DC3D9AD55C8C}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-20</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>127</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="OverSampling" Type="bool" Value="False"/>
+							</PropertyList>
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SAW FIFTH" ID="{67611F2A-3C84-42F3-AC5F-8C3AFFDF9078}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="AmbientNoise_Spatialized" ID="{6E1FF0AE-84E9-426A-A92E-0649046E0A9F}" ShortID="766833481">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Ambient1500_Spread" ID="{DE801C06-AF5F-4C49-B005-31D0C0826EA8}" WorkUnitID="{54103095-2C91-452B-A820-F1D48BCC1068}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F6E5531-2B92-41CC-924F-077AFCFD1453}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{68F9BA48-B3E0-474F-8C7B-FE41FFC0978B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="SAW FIFTH" ID="{82234EEC-A298-413A-9FFC-8C3547B8649E}" ShortID="576328449" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+							<Comment>Audiokinetic Inc. All rights reserved.
+Content provided by Vincent Gagnon
+© 2014 Vincent Gagnon</Comment>
+							<PropertyList>
+								<Property Name="BaseFrequency" Type="Real32" Value="500"/>
+								<Property Name="FrequencyMode" Type="int32" Value="1"/>
+								<Property Name="Osc1Level" Type="Real32" Value="0"/>
+								<Property Name="Osc1Pwm" Type="Real32" Value="50.1"/>
+								<Property Name="Osc1Waveform" Type="int32" Value="3"/>
+								<Property Name="Osc2Level" Type="Real32" Value="0"/>
+								<Property Name="Osc2Transpose" Type="int32" Value="700"/>
+								<Property Name="Osc2Waveform" Type="int32" Value="3"/>
+								<Property Name="OutputLevel" Type="Real32">
+									<RTPCList>
+										<RTPC Name="" ID="{A1992F71-4842-445C-83DC-0B2FCE78D44E}" ShortID="781266754">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="MIDI note velocity" ID="{B618CC3D-04FA-4149-A36B-37B8A1F2B642}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{61F75426-ABC5-498E-9920-227157E33167}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-20</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>127</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+										<RTPC Name="" ID="{7F30A572-9BC1-4CD7-B64E-223AB5BC0656}" ShortID="843679706">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<Custom>
+														<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{6B4D6E88-71B0-4329-B1AC-DC255315FD8E}" ShortID="716628452">
+															<PropertyList>
+																<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.137"/>
+																<Property Name="EnvelopeDecayTime" Type="Real64" Value="0.516"/>
+																<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.137"/>
+																<Property Name="EnvelopeSustainLevel" Type="Real64" Value="78.4"/>
+															</PropertyList>
+														</ModulatorEnvelope>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{D22EA4C0-7151-4091-A11D-D15BEF431F4E}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0.28197</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>-0.17242</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="OverSampling" Type="bool" Value="False"/>
+							</PropertyList>
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SAW FIFTH" ID="{82234EEC-A298-413A-9FFC-8C3547B8649E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

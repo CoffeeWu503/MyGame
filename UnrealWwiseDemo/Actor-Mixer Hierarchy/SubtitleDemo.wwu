@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1ADD4CA6-CF5F-48DF-8C9B-381940FD57BC}" SchemaVersion="89">
+	<AudioObjects>
+		<WorkUnit Name="SubtitleDemo" ID="{1ADD4CA6-CF5F-48DF-8C9B-381940FD57BC}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Marker_Test_001" ID="{86D570D7-7D54-4256-B139-D3D9F7A35C83}" ShortID="842578008">
+					<PropertyList>
+						<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F6E5531-2B92-41CC-924F-077AFCFD1453}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{68F9BA48-B3E0-474F-8C7B-FE41FFC0978B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Marker_Test_001" ID="{F5F7AA1D-4B28-4559-9EE7-A81A61C6C164}" ShortID="359639140">
+							<Language>SFX</Language>
+							<AudioFile>Marker_Test_001.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Marker_Test_001" ID="{F5F7AA1D-4B28-4559-9EE7-A81A61C6C164}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
